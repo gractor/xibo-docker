@@ -21,11 +21,11 @@ MYSQL_DBNAME | The name of the database which should be created for Xibo | xibo
 
 # build 
 
- sudo docker build -t gractor/xibo .
+ ` sudo docker build -t gractor/xibo .`
 
 # Running the container
 
-`docker run -p 80:80 -e XIBO_ADMIN_PASS=secret -e MYSQL_PASS=topsecret gractor/xibo`
+`sudo docker run -p 80:80 -e XIBO_ADMIN_PASS=secret -e MYSQL_PASS=topsecret gractor/xibo`
 
 # Data Container
 
