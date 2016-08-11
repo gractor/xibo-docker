@@ -19,10 +19,13 @@ MYSQL_PASS    | A MySQL user "admin" will be created, this is his password | cha
 XIBO_ADMIN_PASS | A Xibo user "admin" will be created, this is his password | changeme
 MYSQL_DBNAME | The name of the database which should be created for Xibo | xibo
 
+# build 
+
+ sudo docker build -t gractor/xibo .
 
 # Running the container
 
-`docker run -p 80:80 -e XIBO_ADMIN_PASS=secret -e MYSQL_PASS=topsecret chimeradev/xibo`
+`docker run -p 80:80 -e XIBO_ADMIN_PASS=secret -e MYSQL_PASS=topsecret gractor/xibo`
 
 # Data Container
 
