@@ -30,7 +30,7 @@ WORKDIR /app
 
 # RUN curl https://github.com/xibosignage/xibo-cms/archive/${XIBO_VERSION}.tar.gz -o xibo.tar.gz
 # ADD https://github.com/xibosignage/xibo-cms/archive/${XIBO_VERSION}.tar.gz xibo.tar.gz
-ADD https://github.com/gractor/xibo-cms/archive/master.zip xibo.tar.gz
+ADD https://github.com/gractor/xibo-cms/archive/master.tar.gz xibo.tar.gz
 RUN tar -xvzf xibo.tar.gz --strip 1 
 RUN rm -f xibo.tar.gz
 RUN rm -f install.php
