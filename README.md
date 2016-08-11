@@ -1,4 +1,9 @@
 # xibo-docker
+CMS 소스는 
+https://github.com/gractor/xibo-cms
+여기 기준으로 설치됩니다
+
+
 Docker container for the Xibo Digital Signage CMS
 
 Docker Hub repository: https://hub.docker.com/r/chimeradev/xibo-docker/
